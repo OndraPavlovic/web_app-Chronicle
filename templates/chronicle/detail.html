@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>{{ record.title }}</h1>
+        <ul>
+            <li>Typ: {{ record.type }}</li>
+            <li>Publikováno: {{ record.pub_date }}</li>
+            <li>Začátek: {{ record.start_date }}</li>
+            <li>Konec: {{ record.end_date }}</li>
+            <li>Milník: {{ record.milestone }}</li>
+            <li>Popis: {{ record.description }}</li>
+            <li>Účastníci: {% if record.participants.all.0 %} {% for participant in record.participants.all %}
+                <div class="btn">{{participant.participant_name}} </div> {% endfor %}
+            {% else %}
+                <span style="color: red;">Tento záznam nemá žádné účastníky!</span> {% endif %}{{ record.participants.participant_name }}</li>
+            <li>Tagy: {% if record.tags.all.0 %} {% for tag in record.tags.all %}
+                <div class="btn">{{tag.tag_title}} </div> {% endfor %}
+            {% else %}
+                <span style="color: red;">Tento záznam nemá žádné tagy!</span> {% endif %}{{ record.tags.tag_title }}</li>
+        </ul>
+{% endblock %}

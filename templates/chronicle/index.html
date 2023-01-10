@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    {% if latest_record_list %}
+        <ul>
+        {% for record in latest_record_list %}
+            <li><a href="{% url 'chronicle:detail' record.id %}">{{ record.title}}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No records are available.</p>
+    {% endif %}           
+{% endblock %}
