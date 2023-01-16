@@ -14,7 +14,7 @@ Chronicle is application created in Python framework Django - database of memori
 
 There is database in SQLite available.
 Part of the project is also administration site.
-Application Chronicle is incorporated in Project-Website (see another repository for reference).
+Application Chronicle is incorporated in Project-Website (for reference see another repository called Project-Website).
 
 Screenshot from Website:
 
