@@ -16,7 +16,7 @@ There is database in SQLite available.
 Part of the project is also administration site.
 Application Chronicle is incorporated in Project-Website (for reference see another repository called Project-Website).
 
-Screenshots from Website:
+Screenshots:
 
 Index page:
 
