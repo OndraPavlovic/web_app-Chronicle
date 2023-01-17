@@ -20,11 +20,11 @@ Screenshots:
 
 Index page:
 
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212880818-7fc5d380-ae70-4827-9c75-82a499d148d9.png">
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212897722-dc9864cb-0363-4007-a680-b1d9a80201b5.png">
 
 Detail page:
 
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212881314-a7c30a94-e39e-4c57-b978-2931bc3ea404.png">
+<img width="226" alt="image" src="https://user-images.githubusercontent.com/119850119/212897362-58f96275-f521-453f-88f8-f75eb4b4d8e3.png">
 
 Admin page:
 
